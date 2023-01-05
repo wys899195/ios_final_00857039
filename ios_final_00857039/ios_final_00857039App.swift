@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct ios_final_00857039App: App {
+
+    @StateObject private var saver = DataSaver()
+    @StateObject private var fetcher = DataFetcher()
+    
     var body: some Scene {
         WindowGroup {
+            //DataFetcher().environmentObject(saver)
             ContentView()
+                .environmentObject(saver)
+                .environmentObject(fetcher)
         }
     }
 }

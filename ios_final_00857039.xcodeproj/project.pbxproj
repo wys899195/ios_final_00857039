@@ -3,23 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B3D614F294CD041004B8C70 /* TRAInquiryMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3D614E294CD041004B8C70 /* TRAInquiryMainView.swift */; };
+		3B3D615C294CFB23004B8C70 /* TimeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3D615B294CFB23004B8C70 /* TimeSelectionView.swift */; };
+		3B3D6167294D065C004B8C70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3D6166294D065C004B8C70 /* ContentView.swift */; };
+		3B3D616C29509390004B8C70 /* TRAInquireResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3D616B29509390004B8C70 /* TRAInquireResultView.swift */; };
+		3B3D61782950B558004B8C70 /* DataSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3D61772950B558004B8C70 /* DataSaver.swift */; };
+		3B3D617D2950C90F004B8C70 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3D617C2950C90F004B8C70 /* DataFetcher.swift */; };
 		3BAC54A0293CB33900C9ADD7 /* ios_final_00857039App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC549F293CB33900C9ADD7 /* ios_final_00857039App.swift */; };
-		3BAC54A2293CB33900C9ADD7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC54A1293CB33900C9ADD7 /* ContentView.swift */; };
 		3BAC54A4293CB34500C9ADD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BAC54A3293CB34500C9ADD7 /* Assets.xcassets */; };
 		3BAC54A7293CB34500C9ADD7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BAC54A6293CB34500C9ADD7 /* Preview Assets.xcassets */; };
+		4B822B442954CBB300749F94 /* GlobalVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B822B432954CBB300749F94 /* GlobalVariable.swift */; };
+		531C523D295216BC00A4C840 /* TRAInquiryResultItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531C523C295216BC00A4C840 /* TRAInquiryResultItemRow.swift */; };
+		531C52422952340900A4C840 /* StationSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531C52412952340900A4C840 /* StationSelectionView.swift */; };
+		531C52502953820000A4C840 /* DateSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531C524F2953820000A4C840 /* DateSelectionView.swift */; };
+		531C525B2956744B00A4C840 /* MyFavoriteRouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531C525A2956744B00A4C840 /* MyFavoriteRouteView.swift */; };
+		537C9CC32964C54E00206CC4 /* TRAInquiryResultItemRowDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C9CC22964C54E00206CC4 /* TRAInquiryResultItemRowDetail.swift */; };
+		53B09948295B209800C4F339 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 53B09947295B209800C4F339 /* Kingfisher */; };
+		53B0994C295B25B800C4F339 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B0994B295B25B800C4F339 /* SettingView.swift */; };
+		53B09953295B488F00C4F339 /* WeatherLocationSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B09952295B488F00C4F339 /* WeatherLocationSelectView.swift */; };
+		53C09CF729662205006FD510 /* LearnMoreFromWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C09CF629662205006FD510 /* LearnMoreFromWebView.swift */; };
+		53C772302963290B009F7C64 /* SwiftUITooltip in Frameworks */ = {isa = PBXBuildFile; productRef = 53C7722F2963290B009F7C64 /* SwiftUITooltip */; };
+		53CE9C7129616F17003CF8B6 /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CE9C7029616F17003CF8B6 /* ShareView.swift */; };
+		53CE9C7529616F64003CF8B6 /* ChooseThemeColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CE9C7429616F64003CF8B6 /* ChooseThemeColorView.swift */; };
+		53CE9CCF29622435003CF8B6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CE9CCE29622435003CF8B6 /* MainView.swift */; };
+		53DA3F032965F1B1004763C2 /* Hannotate.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 53DA3F022965F1B1004763C2 /* Hannotate.ttc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B3D614E294CD041004B8C70 /* TRAInquiryMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRAInquiryMainView.swift; sourceTree = "<group>"; };
+		3B3D615B294CFB23004B8C70 /* TimeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSelectionView.swift; sourceTree = "<group>"; };
+		3B3D6166294D065C004B8C70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B3D616B29509390004B8C70 /* TRAInquireResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRAInquireResultView.swift; sourceTree = "<group>"; };
+		3B3D61772950B558004B8C70 /* DataSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSaver.swift; sourceTree = "<group>"; };
+		3B3D617C2950C90F004B8C70 /* DataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
 		3BAC549C293CB33900C9ADD7 /* ios_final_00857039.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_final_00857039.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BAC549F293CB33900C9ADD7 /* ios_final_00857039App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_final_00857039App.swift; sourceTree = "<group>"; };
-		3BAC54A1293CB33900C9ADD7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3BAC54A3293CB34500C9ADD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BAC54A6293CB34500C9ADD7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3BAC54A8293CB34500C9ADD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B822B432954CBB300749F94 /* GlobalVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariable.swift; sourceTree = "<group>"; };
+		531C523C295216BC00A4C840 /* TRAInquiryResultItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRAInquiryResultItemRow.swift; sourceTree = "<group>"; };
+		531C52412952340900A4C840 /* StationSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationSelectionView.swift; sourceTree = "<group>"; };
+		531C524F2953820000A4C840 /* DateSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateSelectionView.swift; sourceTree = "<group>"; };
+		531C525A2956744B00A4C840 /* MyFavoriteRouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavoriteRouteView.swift; sourceTree = "<group>"; };
+		537C9CC22964C54E00206CC4 /* TRAInquiryResultItemRowDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRAInquiryResultItemRowDetail.swift; sourceTree = "<group>"; };
+		53B0994B295B25B800C4F339 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		53B09952295B488F00C4F339 /* WeatherLocationSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherLocationSelectView.swift; sourceTree = "<group>"; };
+		53C09CF629662205006FD510 /* LearnMoreFromWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMoreFromWebView.swift; sourceTree = "<group>"; };
+		53CE9C7029616F17003CF8B6 /* ShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
+		53CE9C7429616F64003CF8B6 /* ChooseThemeColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseThemeColorView.swift; sourceTree = "<group>"; };
+		53CE9CCE29622435003CF8B6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		53DA3F022965F1B1004763C2 /* Hannotate.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hannotate.ttc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +65,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53C772302963290B009F7C64 /* SwiftUITooltip in Frameworks */,
+				53B09948295B209800C4F339 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B3D6155294CEF5A004B8C70 /* TRAInquiryRelated */ = {
+			isa = PBXGroup;
+			children = (
+				3B3D614E294CD041004B8C70 /* TRAInquiryMainView.swift */,
+				3B3D616B29509390004B8C70 /* TRAInquireResultView.swift */,
+				531C523C295216BC00A4C840 /* TRAInquiryResultItemRow.swift */,
+				537C9CC22964C54E00206CC4 /* TRAInquiryResultItemRowDetail.swift */,
+				531C52582956738600A4C840 /* TRAInquiryFilterRelated */,
+			);
+			path = TRAInquiryRelated;
+			sourceTree = "<group>";
+		};
 		3BAC5493293CB33900C9ADD7 = {
 			isa = PBXGroup;
 			children = (
 				3BAC549E293CB33900C9ADD7 /* ios_final_00857039 */,
-				3BAC549D293CB33900C9ADD7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,16 +98,20 @@
 				3BAC549C293CB33900C9ADD7 /* ios_final_00857039.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		3BAC549E293CB33900C9ADD7 /* ios_final_00857039 */ = {
 			isa = PBXGroup;
 			children = (
+				53DA3F022965F1B1004763C2 /* Hannotate.ttc */,
 				3BAC549F293CB33900C9ADD7 /* ios_final_00857039App.swift */,
-				3BAC54A1293CB33900C9ADD7 /* ContentView.swift */,
 				3BAC54A3293CB34500C9ADD7 /* Assets.xcassets */,
 				3BAC54A8293CB34500C9ADD7 /* Info.plist */,
 				3BAC54A5293CB34500C9ADD7 /* Preview Content */,
+				3BAC549D293CB33900C9ADD7 /* Products */,
+				53CE9CD3296224E3003CF8B6 /* UIView */,
+				531C5259295673C800A4C840 /* DataProcessingRelated */,
 			);
 			path = ios_final_00857039;
 			sourceTree = "<group>";
@@ -67,6 +122,58 @@
 				3BAC54A6293CB34500C9ADD7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		531C52582956738600A4C840 /* TRAInquiryFilterRelated */ = {
+			isa = PBXGroup;
+			children = (
+				3B3D615B294CFB23004B8C70 /* TimeSelectionView.swift */,
+				531C524F2953820000A4C840 /* DateSelectionView.swift */,
+				531C52412952340900A4C840 /* StationSelectionView.swift */,
+			);
+			path = TRAInquiryFilterRelated;
+			sourceTree = "<group>";
+		};
+		531C5259295673C800A4C840 /* DataProcessingRelated */ = {
+			isa = PBXGroup;
+			children = (
+				4B822B432954CBB300749F94 /* GlobalVariable.swift */,
+				3B3D61772950B558004B8C70 /* DataSaver.swift */,
+				3B3D617C2950C90F004B8C70 /* DataFetcher.swift */,
+			);
+			path = DataProcessingRelated;
+			sourceTree = "<group>";
+		};
+		53CE9C6F29616EED003CF8B6 /* SettingViewRelated */ = {
+			isa = PBXGroup;
+			children = (
+				53B0994B295B25B800C4F339 /* SettingView.swift */,
+				53CE9C7029616F17003CF8B6 /* ShareView.swift */,
+				53C09CF629662205006FD510 /* LearnMoreFromWebView.swift */,
+				53CE9C7429616F64003CF8B6 /* ChooseThemeColorView.swift */,
+			);
+			path = SettingViewRelated;
+			sourceTree = "<group>";
+		};
+		53CE9CD12962247E003CF8B6 /* MainViewRelated */ = {
+			isa = PBXGroup;
+			children = (
+				3B3D6166294D065C004B8C70 /* ContentView.swift */,
+				53CE9CCE29622435003CF8B6 /* MainView.swift */,
+				53B09952295B488F00C4F339 /* WeatherLocationSelectView.swift */,
+			);
+			path = MainViewRelated;
+			sourceTree = "<group>";
+		};
+		53CE9CD3296224E3003CF8B6 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				53CE9CD12962247E003CF8B6 /* MainViewRelated */,
+				3B3D6155294CEF5A004B8C70 /* TRAInquiryRelated */,
+				531C525A2956744B00A4C840 /* MyFavoriteRouteView.swift */,
+				53CE9C6F29616EED003CF8B6 /* SettingViewRelated */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +192,10 @@
 			dependencies = (
 			);
 			name = ios_final_00857039;
+			packageProductDependencies = (
+				53B09947295B209800C4F339 /* Kingfisher */,
+				53C7722F2963290B009F7C64 /* SwiftUITooltip */,
+			);
 			productName = ios_final_00857039;
 			productReference = 3BAC549C293CB33900C9ADD7 /* ios_final_00857039.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +223,10 @@
 				Base,
 			);
 			mainGroup = 3BAC5493293CB33900C9ADD7;
+			packageReferences = (
+				53B09946295B209800C4F339 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				53C7722E2963290B009F7C64 /* XCRemoteSwiftPackageReference "SwiftUI-Tooltip" */,
+			);
 			productRefGroup = 3BAC549D293CB33900C9ADD7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +243,7 @@
 			files = (
 				3BAC54A7293CB34500C9ADD7 /* Preview Assets.xcassets in Resources */,
 				3BAC54A4293CB34500C9ADD7 /* Assets.xcassets in Resources */,
+				53DA3F032965F1B1004763C2 /* Hannotate.ttc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +254,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BAC54A2293CB33900C9ADD7 /* ContentView.swift in Sources */,
+				53CE9C7129616F17003CF8B6 /* ShareView.swift in Sources */,
+				53CE9CCF29622435003CF8B6 /* MainView.swift in Sources */,
+				53B09953295B488F00C4F339 /* WeatherLocationSelectView.swift in Sources */,
+				531C525B2956744B00A4C840 /* MyFavoriteRouteView.swift in Sources */,
+				53CE9C7529616F64003CF8B6 /* ChooseThemeColorView.swift in Sources */,
+				53C09CF729662205006FD510 /* LearnMoreFromWebView.swift in Sources */,
+				531C523D295216BC00A4C840 /* TRAInquiryResultItemRow.swift in Sources */,
+				3B3D61782950B558004B8C70 /* DataSaver.swift in Sources */,
+				537C9CC32964C54E00206CC4 /* TRAInquiryResultItemRowDetail.swift in Sources */,
+				531C52422952340900A4C840 /* StationSelectionView.swift in Sources */,
+				3B3D617D2950C90F004B8C70 /* DataFetcher.swift in Sources */,
+				531C52502953820000A4C840 /* DateSelectionView.swift in Sources */,
+				3B3D6167294D065C004B8C70 /* ContentView.swift in Sources */,
+				3B3D616C29509390004B8C70 /* TRAInquireResultView.swift in Sources */,
+				53B0994C295B25B800C4F339 /* SettingView.swift in Sources */,
+				3B3D615C294CFB23004B8C70 /* TimeSelectionView.swift in Sources */,
 				3BAC54A0293CB33900C9ADD7 /* ios_final_00857039App.swift in Sources */,
+				4B822B442954CBB300749F94 /* GlobalVariable.swift in Sources */,
+				3B3D614F294CD041004B8C70 /* TRAInquiryMainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +459,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		53B09946295B209800C4F339 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.1;
+			};
+		};
+		53C7722E2963290B009F7C64 /* XCRemoteSwiftPackageReference "SwiftUI-Tooltip" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/quassum/SwiftUI-Tooltip";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		53B09947295B209800C4F339 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53B09946295B209800C4F339 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		53C7722F2963290B009F7C64 /* SwiftUITooltip */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53C7722E2963290B009F7C64 /* XCRemoteSwiftPackageReference "SwiftUI-Tooltip" */;
+			productName = SwiftUITooltip;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3BAC5494293CB33900C9ADD7 /* Project object */;
 }
